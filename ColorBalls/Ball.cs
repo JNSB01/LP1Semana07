@@ -36,5 +36,9 @@ namespace ColorBalls
         {
             return raio;
         }
+        public int GetColorGray()
+        {
+            return cor.GetGray();
+        }
     }
 }
