@@ -43,19 +43,19 @@ namespace ColorBalls
 
         public void SetRed(int red)
         {
-            red = this.red;
+            this.red = red;
         }
         public void SetGreen(int green)
         {
-            green = this.green;
+            this.green = green;
         }
         public void SetBlue(int blue)
         {
-            blue = this.blue;
+            this.blue = blue;
         }
         public void SetAlpha(int alpha)
         {
-            alpha = this.alpha;
+            this.alpha = alpha;
         }
 
     }
