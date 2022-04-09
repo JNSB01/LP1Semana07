@@ -15,6 +15,7 @@ namespace ColorBallsWithProperties
 
             Console.WriteLine($"{ball1.GetVezes()},{ball1.GetRaio()},{ball1.Cor.GetGray()},({ball1.Cor.Red = 122},{ball1.Cor.Green = 105},{ball1.Cor.Green = 92})");
             Console.WriteLine($"{ball2.GetVezes()},{ball2.GetRaio()},({ball2.Cor.Red = 112},{ball2.Cor.Green = 95},{ball2.Cor.Green = 82})");
+            Console.WriteLine($"{ball2.Cor.Name}");
 
         }
     }
